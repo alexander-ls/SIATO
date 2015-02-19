@@ -1,0 +1,1 @@
+function slideLeft(e,n,t){var i=$(t);i.removeClass("hidden"),$("#all-steps-cont").animate({left:e},300,function(){i.removeClass("transparent"),$(n).css("visibility","hidden")})}jQuery(document).ready(function(){});
